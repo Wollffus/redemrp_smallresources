@@ -1,7 +1,7 @@
 # redemrp_smallresources
 
 ## Requirements
-- Standalone
+- RedEM:RP
 
 ## Optional
  - N/A
