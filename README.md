@@ -2,7 +2,7 @@
 Collection of small snippets that most people enjoy.
 
 ## Requirements
-- Standalone
+- RedEM:RP
 
 ## Optional
  - N/A
