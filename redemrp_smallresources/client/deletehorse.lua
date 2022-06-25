@@ -1,4 +1,5 @@
 -- -- Delete Horse -------------------------------------------------------------------------
+if Trigger.DeleteHorse then
 RegisterCommand("dv", function()
     local playerPed = PlayerPedId()
     local vehicle   = GetVehiclePedIsIn(playerPed, false)
@@ -38,3 +39,4 @@ RegisterCommand("dv", function()
         end
     end
   end)
+end
