@@ -1,3 +1,4 @@
+if Trigger.DoorOpener then
 local opened = {}
 local active = false
 Citizen.CreateThread(function()
@@ -1165,3 +1166,4 @@ doorhashes = {
   [17914285] = {17914285,1365343458,"mp006_p_mshine_int_door01x",1786.1887207031,-816.48382568359,188.44407653809},
 
 }
+end
