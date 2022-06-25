@@ -1,4 +1,5 @@
 -- -- Point  -------------------------------------------------------------------------
+if Trigger.Point then
 Citizen.CreateThread(function()
     while true do
         Wait(0)
@@ -21,3 +22,4 @@ Citizen.CreateThread(function()
         end
     end
 end)
+end
