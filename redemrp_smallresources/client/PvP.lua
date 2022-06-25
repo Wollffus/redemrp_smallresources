@@ -1,3 +1,4 @@
+if Trigger.PvPToggle then
 local pvp = false
 
 function setpvp(flag)
@@ -31,3 +32,4 @@ RegisterCommand("pvpon", function(_source, args, raw) --change command here
     TriggerEvent("pvp")
     TriggerEvent("redemrp_notification:start", "PvP On", 3)
 end, false)
+end
