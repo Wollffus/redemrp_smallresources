@@ -9,7 +9,7 @@ Trigger = {
     HANDSUP = true, -- Enables the handsup emote by using the /hu command
     PLAYERID = true, -- Toggles player ID abvove head with Z
     Point = true, -- Use `B` to point (line 6 pointing.lua to change default button)
-    PvPToggle = true, -- Toggle passive mode using commands /pvpon /pvpoff
+    PvPToggle = false, -- Toggle passive mode using commands /pvpon /pvpoff -- not working
     Smoking = true, -- Enable smoking animations
     STAMINA = true -- Gold ring stamina bar
 }
